@@ -87,7 +87,7 @@ const Player = () => {
   return (
     <div className="bg-gray-100 w-full h-screen flex items-center">
       <div
-        className="w-1/2 h-96
+        className="lg:w-1/2 h-96
        rounded-lg shadow-2xl bg-red-100 mx-auto"
       >
         <div className="h-3/4 flex">
