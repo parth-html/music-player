@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/music-player/static/css/main.8ec1e17e.chunk.css",
+    "main.js": "/music-player/static/js/main.8fd56b11.chunk.js",
+    "main.js.map": "/music-player/static/js/main.8fd56b11.chunk.js.map",
+    "runtime-main.js": "/music-player/static/js/runtime-main.e2adfd4b.js",
+    "runtime-main.js.map": "/music-player/static/js/runtime-main.e2adfd4b.js.map",
+    "static/js/2.09eb11a5.chunk.js": "/music-player/static/js/2.09eb11a5.chunk.js",
+    "static/js/2.09eb11a5.chunk.js.map": "/music-player/static/js/2.09eb11a5.chunk.js.map",
+    "static/js/3.f1107603.chunk.js": "/music-player/static/js/3.f1107603.chunk.js",
+    "static/js/3.f1107603.chunk.js.map": "/music-player/static/js/3.f1107603.chunk.js.map",
+    "index.html": "/music-player/index.html",
+    "static/css/main.8ec1e17e.chunk.css.map": "/music-player/static/css/main.8ec1e17e.chunk.css.map",
+    "static/js/2.09eb11a5.chunk.js.LICENSE.txt": "/music-player/static/js/2.09eb11a5.chunk.js.LICENSE.txt",
+    "static/media/Give Me Some Sunshine.13ab4d18.mp3": "/music-player/static/media/Give Me Some Sunshine.13ab4d18.mp3",
+    "static/media/music.4e27ef9a.jpg": "/music-player/static/media/music.4e27ef9a.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e2adfd4b.js",
+    "static/js/2.09eb11a5.chunk.js",
+    "static/css/main.8ec1e17e.chunk.css",
+    "static/js/main.8fd56b11.chunk.js"
+  ]
+}
