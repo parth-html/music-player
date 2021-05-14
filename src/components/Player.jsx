@@ -15,11 +15,13 @@ const Player = () => {
   const playPause = () => {
     let audio = document.getElementById("audio_id");
 
-    if (icon.type.type.render.displayName === "PlayArrowIcon") {
+    if (icon.props.icnname === "PlayArrowIcon") {
       audio.play();
-      seticon(<PauseIcon style={{ fontSize: 80 }} />);
+      seticon(<PauseIcon style={{ fontSize: 80 }} icnname="PauseIcon" />);
     } else {
-      seticon(<PlayArrowIcon style={{ fontSize: 80 }} />);
+      seticon(
+        <PlayArrowIcon style={{ fontSize: 80 }} icnname="PlayArrowIcon" />
+      );
       audio.pause();
     }
   };
@@ -82,7 +84,9 @@ const Player = () => {
   const [musicDuration, setmusicDuration] = useState("00:00");
   const [selected, setSelected] = React.useState(false);
   const [secondSelect, setsecondSelect] = useState(false);
-  const [icon, seticon] = useState(<PlayArrowIcon style={{ fontSize: 80 }} />);
+  const [icon, seticon] = useState(
+    <PlayArrowIcon style={{ fontSize: 80 }} icnname="PlayArrowIcon" />
+  );
 
   return (
     <div className="bg-gray-100 w-full h-screen flex items-center">
